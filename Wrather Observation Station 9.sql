@@ -3,4 +3,4 @@ Enter your query here.
 */
 SELECT DISTINCT CITY
 FROM STATION 
-WHERE CITY NOT LIKE '%[AEIOUaeiou]'
+WHERE CITY NOT REGEXP '%[AEIOUaeiou]'
